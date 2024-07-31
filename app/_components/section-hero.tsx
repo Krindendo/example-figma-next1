@@ -37,7 +37,7 @@ export function SectionHero() {
   React.useEffect(() => {
     const intervalId = setInterval(() => {
       paginate(1);
-    }, 3000);
+    }, 4000);
 
     return () => clearInterval(intervalId);
   }, [page]);
@@ -55,7 +55,7 @@ export function SectionHero() {
             animate="center"
             exit="exit"
             transition={{
-              opacity: { duration: 0.7 },
+              opacity: { duration: 1 },
             }}
           />
         </AnimatePresence>

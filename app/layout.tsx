@@ -7,7 +7,6 @@ import { siteConfig } from "@/config/site";
 import { cn } from "@/lib/utils";
 import { SiteFooter } from "@/components/site-footer";
 import { SiteHeader } from "@/components/site-header";
-import { Toaster } from "@/components/ui/toaster";
 
 const fontSans = FontSans({
   subsets: ["latin"],
@@ -48,7 +47,6 @@ export default function RootLayout({ children }: RootLayoutProps) {
           <main className="flex flex-col">{children}</main>
           <SiteFooter />
         </div>
-        <Toaster />
       </body>
     </html>
   );
