@@ -64,35 +64,51 @@ export function SiteHeader() {
       className="sticky top-0 left-0 right-0 w-full h-[88px] bg-white z-50"
     >
       <div className="container flex justify-between items-center h-full">
-        <Link href="/" className="font-medium text-lg hover:text-[#1c8866]">
-          <Logo className="w-[150px]" />
-        </Link>
+        <Logo className="w-[150px]" />
 
         <div className="hidden lg:flex flex-row justify-center items-center gap-10">
           <Link
-            href="/#go-to-pricing-section"
+            href="/#o-nama"
             className={cn(
-              "font-medium text-lg hover:text-[#1c8866]",
-              pathname === "/#" && "text-[#0082f3]"
+              "font-medium text-lg hover:text-orange-400 hover:border-b-orange-400 hover:border-b-2 hover:mt-[2px]"
             )}
           >
             O nama
           </Link>
-          <a
-            href="https://calendly.com/umer-techmade/chat-with-umer-techmade"
-            target="_blank"
-            className="font-medium text-lg hover:text-[#1c8866]"
-          >
-            Menu
-          </a>
           <Link
-            href="/contact-us"
+            href="/#nas-tim"
             className={cn(
-              "font-medium text-lg hover:text-[#1c8866]",
-              pathname === "/contact-us" && "text-[#0082f3]"
+              "font-medium text-lg hover:text-orange-400 hover:border-b-orange-400 hover:border-b-2 hover:mt-[2px]"
             )}
           >
             Nas tim
+          </Link>
+          <Link
+            href="/menu"
+            className={cn(
+              "font-medium text-lg hover:text-orange-400 hover:border-b-orange-400 hover:border-b-2 hover:mt-[2px]",
+              pathname === "/menu" && "text-sky-700"
+            )}
+          >
+            Menu
+          </Link>
+          <Link
+            href="/galerija"
+            className={cn(
+              "font-medium text-lg hover:text-orange-400 hover:border-b-orange-400 hover:border-b-2 hover:mt-[2px]",
+              pathname === "/galerija" && "text-sky-700"
+            )}
+          >
+            Galerija
+          </Link>
+          <Link
+            href="/kontakt"
+            className={cn(
+              "font-medium text-lg hover:text-orange-400 hover:border-b-orange-400 hover:border-b-2 hover:mt-[2px]",
+              pathname === "/kontakt" && "text-sky-700"
+            )}
+          >
+            Kontakt
           </Link>
         </div>
         <div className={cn("block: lg:hidden")}>
