@@ -19,13 +19,38 @@ export default function Galerija() {
             alt="hrana"
           />
           <ImageWrapper
-            src="/images/hrana/IMG-20240621-WA0005.jpg"
+            src="/images/hrana/20240513_191017.jpg"
             className="col-span-1"
+            alt="hrana"
+          />
+          <ImageWrapper
+            src="/images/hrana/IMG-20240621-WA0005.jpg"
+            className="md:col-span-2"
             alt="hrana"
           />
           <ImageWrapper
             src="/images/hrana/IMG-20240621-WA0006.jpg"
             className="md:col-span-2"
+            alt="hrana"
+          />
+          <ImageWrapper
+            src="/images/hrana/IMG-20240621-WA0019.jpg"
+            className="col-span-1"
+            alt="hrana"
+          />
+          <ImageWrapper
+            src="/images/hrana/IMG-20240621-WA0022.jpg"
+            className="col-span-1"
+            alt="hrana"
+          />
+          <ImageWrapper
+            src="/images/hrana/20240513_190904.jpg"
+            className="col-span-1"
+            alt="hrana"
+          />
+          <ImageWrapper
+            src="/images/hrana/IMG-20240621-WA0018.jpg"
+            className="col-span-1"
             alt="hrana"
           />
           <ImageWrapper
@@ -44,7 +69,7 @@ export default function Galerija() {
             alt="restoran"
           />
           <ImageWrapper
-            src="/images/0-02-05-d447d36fc0f4a96e7f735cc35520fc4651a66f6938ac815656e41551f5e51631_2f984e626e84ac0a.jpg"
+            src="/images/restoran1.jpg"
             className="md:col-span-2"
             alt="restoran"
           />

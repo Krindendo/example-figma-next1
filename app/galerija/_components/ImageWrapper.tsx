@@ -15,6 +15,7 @@ export function ImageWrapper({ src, className, alt }: ImageWrapperProps) {
         "h-96 w-full object-cover object-center rounded-xl"
       )}
       alt={alt}
+      loading="lazy"
     />
   );
 }

@@ -76,19 +76,8 @@ export function SiteHeader() {
             O nama
           </Link>
           <Link
-            href="/#nas-tim"
-            className={cn(
-              "font-medium text-lg hover:text-orange-400 hover:border-b-orange-400 hover:border-b-2 hover:mt-[2px]"
-            )}
-          >
-            Nas tim
-          </Link>
-          <Link
-            href="/menu"
-            className={cn(
-              "font-medium text-lg hover:text-orange-400 hover:border-b-orange-400 hover:border-b-2 hover:mt-[2px]",
-              pathname === "/menu" && "text-sky-700"
-            )}
+            href="/docs/МЕНЮ_04.05.docx"
+            className="font-medium text-lg hover:text-orange-400 hover:border-b-orange-400 hover:border-b-2 hover:mt-[2px]"
           >
             Menu
           </Link>
@@ -119,38 +108,35 @@ export function SiteHeader() {
             ></motion.button>
 
             <motion.ul
-              className="fixed right-0 top-[88px] w-[200px] flex flex-col gap-4 pl-5 py-8 bg-[#f4ff48]"
+              className="fixed right-0 top-[88px] w-[200px] flex flex-col gap-4 pl-5 py-8 bg-[#ede5da]"
               variants={instantClose ? instantClosevariants : variants}
             >
-              {pathname !== "/" && (
-                <Link href="/" className="xs:text-lg hover:text-[#1c8866]">
-                  Home
-                </Link>
-              )}
-
-              <Link
-                href="#"
-                className={cn(
-                  "font-medium xs:text-lg hover:text-[#1c8866]",
-                  pathname === "/#" && "text-[#0082f3]"
-                )}
-              >
-                Pricing
+              <Link href="/#o-nama" className={cn("font-medium xs:text-lg")}>
+                O nama
               </Link>
-              <a
-                href="#"
-                className="font-medium xs:text-lg hover:text-[#1c8866]"
-              >
-                Book a demo
-              </a>
               <Link
-                href="/contact-us"
+                href="/docs/МЕНЮ_04.05.docx"
+                className="font-medium xs:text-lg"
+              >
+                Menu
+              </Link>
+              <Link
+                href="/galerija"
                 className={cn(
-                  "font-medium xs:text-lg hover:text-[#1c8866]",
-                  pathname === "/contact-us" && "text-[#0082f3]"
+                  "font-medium xs:text-lg",
+                  pathname === "/galerija" && "text-sky-700"
                 )}
               >
-                Contact Us
+                Galerija
+              </Link>
+              <Link
+                href="/kontakt"
+                className={cn(
+                  "font-medium xs:text-lg",
+                  pathname === "/kontakt" && "text-sky-700"
+                )}
+              >
+                Kontakt
               </Link>
             </motion.ul>
             <SiteHeaderMenuToggle
