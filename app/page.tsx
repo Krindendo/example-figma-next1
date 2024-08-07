@@ -44,10 +44,7 @@ export default async function IndexPage() {
           praesentium alias, sit doloremque! Nihil autem non aut assumenda,
           quibusdam animi!
         </p>
-        <Link
-          href="/docs/МЕНЮ_04.05.docx"
-          className={buttonVariants({ variant: "default" })}
-        >
+        <Link href="/menu" className={buttonVariants({ variant: "default" })}>
           Vidi meni
         </Link>
       </section>

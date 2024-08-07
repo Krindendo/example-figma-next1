@@ -76,7 +76,7 @@ export function SiteHeader() {
             O nama
           </Link>
           <Link
-            href="/docs/МЕНЮ_04.05.docx"
+            href="/menu"
             className="font-medium text-lg hover:text-orange-400 hover:border-b-orange-400 hover:border-b-2 hover:mt-[2px]"
           >
             Menu
